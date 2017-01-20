@@ -12,7 +12,7 @@ GET http://foo.yrdci.fra.hybris.com:8000/api/v1/namespaces
 ## Create new namespace
 REST API
 ```
-POST http://foo.yrdci.fra.hybris.com:8000/api/v1/namesapes/
+POST http://foo.yrdci.fra.hybris.com:8000/api/v1/namespaces/
 ```
 JSON
 ```
@@ -26,7 +26,7 @@ JSON
 ```
 ## Delete namespace
 ```
-DELETE http://foo.yrdci.fra.hybris.com:8000/api/v1/namesapes/heflik/
+DELETE http://foo.yrdci.fra.hybris.com:8000/api/v1/namespaces/heflik/
 ```
 # K8s PODs
 
@@ -76,7 +76,7 @@ GET http://foo.yrdci.fra.hybris.com:8000/api/v1/namespaces/heflik/pods/single-po
 ```
 ## Create Service (LB)
 ```
-PUT http://foo.yrdci.fra.hybris.com:8000/api/v1/namespaces/heflik/services/
+POST http://foo.yrdci.fra.hybris.com:8000/api/v1/namespaces/heflik/services/
 ```
 JSON
 ```
@@ -106,10 +106,10 @@ Delete service (LB)
 ```
 DELETE http://foo.yrdci.fra.hybris.com:8000/api/v1/namespaces/heflik/services/node-js/
 ```
-# Replication Controler (RC)
+# Replication Controller (RC)
 ## Create RC
 ```
-PUT http://foo.yrdci.fra.hybris.com:8000/api/v1/namespaces/heflik/replicationcontrollers/
+POST http://foo.yrdci.fra.hybris.com:8000/api/v1/namespaces/heflik/replicationcontrollers/
 ```
 JSON
 ```
@@ -149,7 +149,7 @@ JSON
 ```
 Delete (RC)
 ```
-http://foo.yrdci.fra.hybris.com:8000/api/v1/namespaces/heflik/replicationcontrollers/node-js/
+DELETE http://foo.yrdci.fra.hybris.com:8000/api/v1/namespaces/heflik/replicationcontrollers/node-js/
 ```
 Create service (LB)
 ```
@@ -178,4 +178,5 @@ Create service (LB)
 
 # Links
 https://kubernetes.io/docs/user-guide/pods/multi-container/
+
 https://kubernetes.io/docs/api-reference/v1.5/#service-v1
