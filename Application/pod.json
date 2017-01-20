@@ -1,0 +1,23 @@
+{
+  "kind": "Pod",
+  "apiVersion": "v1",
+  "metadata": {
+    "name": "single-pod",
+    "labels": {
+      "app": "node-js"
+    }
+  },
+  "spec": {
+    "containers": [
+      {
+        "name": "single-pod-app",
+        "image": "jonbaier/node-express-info:latest",
+        "ports": [
+          {
+            "containerPort": 80
+          }
+        ]
+      }
+    ]
+  }
+}
