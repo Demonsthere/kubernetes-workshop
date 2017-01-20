@@ -38,7 +38,7 @@ GET http://foo.yrdci.fra.hybris.com:8000/api/v1/namespaces/heflik/pods/
 ## Create single application pod
 REST API
 ```
-http://foo.yrdci.fra.hybris.com:8000/api/v1/namespaces/heflik/pods/
+POST http://foo.yrdci.fra.hybris.com:8000/api/v1/namespaces/heflik/pods/
 ```
 JSON
 ```
