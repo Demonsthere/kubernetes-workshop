@@ -2,11 +2,11 @@
 ### Agenda
 - Docker, Mesos, K8s (TH)
 - Components Master, Node (TH/JB)
--- Cluster kube-* components (TH)
--- Cluster logical components: pod, rc, service (TH)
+  - Cluster kube-* components (TH)
+  - Cluster logical components: pod, rc, service (TH)
 - Cluster resource isolation (JB)
--- Namespaces (JB)
--- SDN (JB)
+  - Namespaces (JB)
+  - SDN (JB)
 ---
 - K8s instalation (JB)
 - Getting K8s access (JB)
