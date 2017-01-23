@@ -7,11 +7,13 @@
 - Cluster resource isolation (JB)
   - Namespaces (JB)
   - SDN (JB)
----
 - K8s instalation (JB)
 - Getting K8s access (JB)
 - Single pod application via REST (TH)
 - RC application via REST (TH)
+
+## K8s overwiev 
+!["K8s overwiev"](img/Figure-1-Kubernetes-cluster.jpg)
 
 ## kube-apiserver
 Validate the configuration data for api objects, which include pods, services, replicationcontrollers. Entrt point for REST and cli tools.
@@ -23,3 +25,6 @@ Runs on each node. Forwards requests to dockerized backend found by Docker-links
 Basically it is managing pods across the whole K8s cluster.
 ## kubelet
 Primary "node agent" that runs on each node. Kubelet works in PodSpec term in Yaml or Json that describes a pod.
+
+!["K8s pod"](img/pod.png)
+
