@@ -17,6 +17,7 @@
 
 ## kube-apiserver
 Validate the configuration data for api objects, which include pods, services, replicationcontrollers. Entrt point for REST and cli tools.
+
 !["K8s Api"](img/kubernetes_api_architecture2.png)
 
 ## kube-controller-manager
