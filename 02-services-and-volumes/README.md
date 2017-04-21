@@ -65,3 +65,10 @@ spec:
 ### Traefik
 
 !["Traefik proxy"](https://pbs.twimg.com/media/CkcZ9xXXIAA3U6J.jpg)
+
+### The essentials
+
+* Universal reverse proxy
+* Connects to the kubernetes-api and manages redirections
+* Gather information about ingress maps
+
