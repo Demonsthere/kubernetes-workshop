@@ -10,6 +10,10 @@
 	* What is a service
 	* Service types
 	* Accessing applicaitons
+* Secrets in Kubernetes
+	* Secrets overview
+	* Creating own secrets
+	* Using your secrets	 
 * How to access your applications - but drop the ports
 	* Ingress controller
 	* Ingress manifest
