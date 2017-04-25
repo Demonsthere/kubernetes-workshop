@@ -1,8 +1,8 @@
 ### Secrets in K8s  
-<dl>
-<dt>What is secret</dt>
-<dd>A secret is an object that contains small amount of sensitive information sych as password, a token or a key. This information can be put in a Pod specification or in  an image _(alow to pull image from private repository)_. Secret object allows for more control over the how it is used, and reduce the risk of accidential exposure.<dd>
-<dl>
+
+#### What is secret
+A secret is an object that contains small amount of sensitive information sych as password, a token or a key. This information can be put in a Pod specification or in  an image **(alow to pull image from private repository)** . Secret object allows for more control over the how it is used, and reduce the risk of accidential exposure.
+
 #### Using secrets
 To use a secret Pod needs to reference the secret. Pod can use secrets in two ways, as a file in a volume mounted, or used by kubelet when pulling image for the pod from protected repository.
 
